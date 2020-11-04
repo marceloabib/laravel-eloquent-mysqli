@@ -12,6 +12,7 @@
             "homepage": "https://github.com/shakahl"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.1.0",
         "illuminate/contracts": ">=7.0.0",
