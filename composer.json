@@ -12,8 +12,15 @@
             "homepage": "https://github.com/shakahl"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/shakahl/laravel-eloquent-mysqli"
+        }
+    ],
     "minimum-stability": "dev",
     "require": {
+        "marceloabib/laravel-eloquent-mysqli": "dev-altcomposer",
         "php": ">=7.1.0",
         "illuminate/contracts": ">=7.0.0",
         "illuminate/database": ">=7.0.0",
